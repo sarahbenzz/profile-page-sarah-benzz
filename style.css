@@ -1,0 +1,144 @@
+
+Body {
+    background-color: black;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    width: 700px;
+    margin: 20px auto;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+H1 {
+    font-family: "Tilt Prism", sans-serif;
+    font-size: 55px;  
+}
+
+H2 {
+    font-family: "Tilt Prism", sans-serif;
+    font-size: 36px;  
+}
+
+.card-pink {
+    background-color: #ff007f ;
+    border: 2px solid #FC0FC0 ;
+    border-radius: 0px;
+    padding: 40px;
+    text-align: center;
+    margin: 50px 0 ;
+}
+
+#spotify-btn {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-weight: 900;
+    box-shadow: 10px -10px 0 rgb(255, 128, 0);
+    display: inline-block;
+    transition: 0.5s;
+}
+
+#spotify-btn:hover {
+    transition: 0.5s; 
+    transform: translate(0px 10px);
+    box-shadow: 0px 0px 0px rgb(255, 128, 0);
+}
+
+#spotify-btn-2 {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-weight: 900;
+    box-shadow: -10px -10px 0 rgb(38, 255, 0);
+    display: inline-block;
+    transition: 0.5s;
+}
+
+#spotify-btn-2:hover {
+    transition: 0.5s; 
+    transform: translate(0px 10px);
+    box-shadow: 0px 0px 0px rgb(38, 255, 0);
+}
+
+#presentation-card p {
+    margin-bottom: 40px;
+}
+
+.classic-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#social-card {
+    list-style: none;
+    padding-left: 0;
+}
+
+#social-card li {
+    display: inline;
+}
+
+#social-card li i {
+    font-size: 50px;
+    color: black;
+    margin: 0 5px;
+}
+
+#social-card li i:hover {
+    color: rgb(156, 33, 184);
+}
+
+#music-card p {
+    margin-bottom: 40px;
+}
+
+#spotify-screen {
+    height: 500px;
+}
+
+#rocinha {
+    height: 400px;
+}
+
+#presentation-card {
+    box-shadow: 20px -20px 0 rgb(255, 128, 0);
+}
+
+#music-card {
+    box-shadow: -20px -20px 0 rgb(38, 255, 0);
+}
+
+#travel-card {
+    box-shadow: 20px -20px 0 rgb(0, 98, 255);
+}
+
+#astro-card {
+    box-shadow: -20px -20px 0 rgb(251, 255, 0);
+}
+
+#rocinha {
+    border-radius: 5px;
+}
+
+#spotify-screen {
+    border-radius: 5px;
+}
+
+#personality-card img {
+    height: 200px;
+    width: 20px;
+}
